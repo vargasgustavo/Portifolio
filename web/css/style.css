@@ -1,15 +1,57 @@
-html{
-
+@import url('https://fonts.googleapis.com/css2?family=Lato:wght@300&display=swap');
+*{
+    padding: 0;
+    margin: 0;
 }
-
-header{
-
-}
-
 body{
-
+    background-color: aliceblue;
 }
-
+a {
+    color: #fff;
+    text-decoration: none;
+    transition: 0.3s;
+    padding: 29px 50px;
+}
+a:hover {
+    opacity: .7;
+}
+nav{
+    max-width: 100%;
+    display: flex;
+    justify-content: space-around;
+    align-items: center;
+    background-color: #1d1d1d;
+    height: 8vh;
+}
+.menu-list{
+    max-width: 100%;
+    list-style-type: none;
+    display: flex;
+    justify-content: space-around;
+    align-items: center;
+    padding: 0 20px 0 20px;
+}
+.menu-list li{
+    letter-spacing: 2px;
+    font-family: 'Lato';
+    cursor: pointer;
+}
+main{
+    height: 76vh;
+}
+.container{
+    background-color: aquamarine;
+    height: 76vh;
+}
+.container section{
+    display: flex;
+    flex-wrap: wrap;
+    max-width: 200px;
+}
 footer{
-
+    background-color: #1d1d1d;
+    height: 16vh;
+    display: flex;
+    justify-content: space-around;
+    align-items: center;
 }

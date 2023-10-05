@@ -10,16 +10,18 @@ using namespace std;
 int main(){
     int opc = 0;
     do{
-        cout << endl << "LIVRARIA DO SEU JOSE" << endl;
+        cout << endl << "-----------------------------";
+        cout << endl << "|    LIVRARIA DO SEU JOSE   |";
+        cout << endl << "-----------------------------";
+        cout << endl << "| 1 - CADASTRAR LIVRO       |";
+        cout << endl << "| 2 - CADASTRAR FUNCIONARIO |";
+        cout << endl << "| 3 - CADASTRAR CLIENTE     |";
+        cout << endl << "| 4 - LISTAR LIVRO          |";
+        cout << endl << "| 5 - LISTAR FUNCIONARIO    |";
+        cout << endl << "| 6 - LISTAR CLIENTE        |";
+        cout << endl << "-----------------------------";
 
-        cout << endl << "1 - CADASTRAR LIVRO" << endl;
-        cout << endl << "2 - CADASTRAR FUNCIONARIO" << endl;
-        cout << endl << "3 - CADASTRAR CLIENTE" << endl;
-        cout << endl << "4 - LISTAR LIVRO" << endl;
-        cout << endl << "5 - LISTAR FUNCIONARIO" << endl;
-        cout << endl << "6 - LISTAR CLIENTE" << endl;
-
-        cout << endl << "OPCAO: ";
+        cout << endl << endl << "OPCAO: ";
         cin >> opc;
 
         switch (opc){
